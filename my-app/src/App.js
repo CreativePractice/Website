@@ -1,20 +1,38 @@
-
+import './App'
 import "bootswatch/dist/lumen/bootstrap.min.css";
-import { Navbar, Nav} from "react-bootstrap";
 import React from 'react';
+import './App.css'
+import Navigation from './components/Navigation';
+import Picture from './components/Picture';
+import AboutUs from './components/AboutUs';
+import Performances from './components/Performances';
+import ContactUs from './components/ContactUs';
+import Calendar from './components/Calendar';
+
+
+import {BrowserRouter,Route,Switch} from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar bg="primary" variant="dark">
-        <Navbar.Brand href="#home">Creative Practices</Navbar.Brand>
-        <Nav className="mr-auto active">
-          <Nav.Link href="#home">About Us</Nav.Link>
-          <Nav.Link href="#ContactUs">Contact Us</Nav.Link>
-          <Nav.Link href="#Calendar">Calendar</Nav.Link>
-          <Nav.Link href="#Performances">Performances</Nav.Link>
-        </Nav>
-      </Navbar>
+      <Navigation />
+      <BrowserRouter>
+      <div className="container">
+        <Switch>
+          <Route path='/' component={Picture}></Route>
+          <Route path='/AboutUs' component={AboutUs}></Route>
+          <Route path='/ContactUs' component={ContactUs}></Route>
+          <Route path='/Calendar' component={Calendar}></Route>
+          <Route path='/Performances' component={Performances}></Route>
+          
+        </Switch>
+
+      </div>
+      </BrowserRouter>
+      
+
+      
   
     </div>
   );

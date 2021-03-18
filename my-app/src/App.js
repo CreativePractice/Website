@@ -6,7 +6,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="primary" variant="dark">
         <Navbar.Brand href="#home">Creative Practices</Navbar.Brand>
         <Nav className="mr-auto active">
           <Nav.Link href="#home">About Us</Nav.Link>

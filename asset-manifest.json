@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Creative-Practice-Website/static/css/main.2e7919c8.chunk.css",
+    "main.js": "/Creative-Practice-Website/static/js/main.7b662428.chunk.js",
+    "main.js.map": "/Creative-Practice-Website/static/js/main.7b662428.chunk.js.map",
+    "runtime-main.js": "/Creative-Practice-Website/static/js/runtime-main.9e14081b.js",
+    "runtime-main.js.map": "/Creative-Practice-Website/static/js/runtime-main.9e14081b.js.map",
+    "static/css/2.717d8421.chunk.css": "/Creative-Practice-Website/static/css/2.717d8421.chunk.css",
+    "static/js/2.d356402a.chunk.js": "/Creative-Practice-Website/static/js/2.d356402a.chunk.js",
+    "static/js/2.d356402a.chunk.js.map": "/Creative-Practice-Website/static/js/2.d356402a.chunk.js.map",
+    "static/js/3.5461d3e4.chunk.js": "/Creative-Practice-Website/static/js/3.5461d3e4.chunk.js",
+    "static/js/3.5461d3e4.chunk.js.map": "/Creative-Practice-Website/static/js/3.5461d3e4.chunk.js.map",
+    "index.html": "/Creative-Practice-Website/index.html",
+    "static/css/2.717d8421.chunk.css.map": "/Creative-Practice-Website/static/css/2.717d8421.chunk.css.map",
+    "static/css/main.2e7919c8.chunk.css.map": "/Creative-Practice-Website/static/css/main.2e7919c8.chunk.css.map",
+    "static/js/2.d356402a.chunk.js.LICENSE.txt": "/Creative-Practice-Website/static/js/2.d356402a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e14081b.js",
+    "static/css/2.717d8421.chunk.css",
+    "static/js/2.d356402a.chunk.js",
+    "static/css/main.2e7919c8.chunk.css",
+    "static/js/main.7b662428.chunk.js"
+  ]
+}

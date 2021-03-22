@@ -1,7 +1,7 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
-import { Card, CardDeck } from "react-bootstrap";
+import { Card, CardDeck, Col} from "react-bootstrap";
 import img from "../images/Sample.jpg";
 
 
@@ -24,8 +24,9 @@ const AboutUs = () => {
 
                     </p>
                     <h2 style={{textAlignVertical: "center",textAlign: "center"}}> Club Leaders</h2>
-
+                    <br></br>
                     <h3>Co-Presidents</h3>
+                    <br></br>
                     <CardDeck>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={img} />
@@ -39,24 +40,40 @@ const AboutUs = () => {
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={img} />
                             <Card.Body>
-                                <Card.Title>Shawn Diertl</Card.Title>
+                                <Card.Title>Ally Fraser</Card.Title>
                                 <Card.Text>
-                                    sdiertl@ufl.edu
+                                    allysfraser@ufl.edu
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={img} />
                             <Card.Body>
-                                <Card.Title>Shawn Diertl</Card.Title>
+                                <Card.Title>Alee Danyluk</Card.Title>
                                 <Card.Text>
-                                    sdiertl@ufl.edu
+                                    adanyluk@ufl.edu
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </CardDeck>
+                    <br></br>
                     <h3>Treasurer</h3>
+                    <br></br>
 
+                    <CardDeck>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={img} />
+                            <Card.Body>
+                                <Card.Title>Jackson Brunner</Card.Title>
+                                <Card.Text>
+                                    jackson.brunner@ufl.edu
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Col></Col>
+                        <Col></Col>
+                      </CardDeck>
+                      
                     </Container>
                 </Jumbotron>
         </div>

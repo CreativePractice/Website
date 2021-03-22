@@ -1,8 +1,8 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
-import Image from 'react-bootstrap/Image'
-import { Col, Row } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import img from "../images/Sample.jpg";
 
 
 
@@ -14,7 +14,6 @@ const Picture = () => {
                     <h1>About Us</h1>
                     
                     <p>
-
                         Created in 2005, White Coat Company is an organization that 
                         writes and rehearses plays put on for patients at the local Children’s Hospital. 
                         We also perform these productions for our peers on Family and Friends Weekend each year. 
@@ -26,19 +25,16 @@ const Picture = () => {
                     </p>
                     <h2 style={{textAlignVertical: "center",textAlign: "center"}}> Club Leaders</h2>
 
-                    <h3>Co-Presidents</h3>
-                    <p>
-                        Shawn Diertl<br/>
-                        sdiertl@ufl.edu<br/><br/>
-                        <Container>
-                            <Row>
-                                <Col xs={6} md={4}>
-                                    <Image src="./Sample.jpg" roundedCircle />
-                                </Col>
-                            </Row>
-                        </Container>
-                    </p>
-                    
+                    <h3>Co-Presidents</h3>            
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={img} />
+                        <Card.Body>
+                            <Card.Title>Shawn Diertl</Card.Title>
+                            <Card.Text>
+                                sdiertl@ufl.edu
+                                </Card.Text>
+                        </Card.Body>
+                    </Card>
                     <h3>Treasurer</h3>
 
                     </Container>

@@ -20,8 +20,8 @@ function App() {
       <BrowserRouter>
       <div className="container">
         <Switch>
-          <Route path='/' component={Picture}></Route>
-          <Route path='/AboutUs' component={AboutUs}></Route>
+          <Route path='/' component={AboutUs}></Route>
+          <Route path='/AboutUs' component={Picture}></Route>
           <Route path='/ContactUs' component={ContactUs}></Route>
           <Route path='/Calendar' component={Calendar}></Route>
           <Route path='/Performances' component={Performances}></Route>

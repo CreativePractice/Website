@@ -13,7 +13,7 @@ const AboutUs = () => {
                     <Container>
                     <h1>About Us</h1>
                     
-                    <p>
+                    <h5>
                         Created in 2005, White Coat Company is an organization that 
                         writes and rehearses plays put on for patients at the local Children’s Hospital. 
                         We also perform these productions for our peers on Family and Friends Weekend each year. 
@@ -22,7 +22,7 @@ const AboutUs = () => {
                         and making props for the show. Not only is it a fantastic way to provide joy to pediatric 
                         patients, but it provides medical students with an artistic outlet. We hope to see you at one of our upcoming shows!
 
-                    </p>
+                    </h5>
                     <h2 style={{textAlignVertical: "center",textAlign: "center"}}> Club Leaders</h2>
                     <br></br>
                     <h3>Co-Presidents</h3>

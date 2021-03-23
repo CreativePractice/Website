@@ -1,16 +1,25 @@
+import "bootswatch/dist/lumen/bootstrap.min.css";
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
-import { Card, CardDeck, Col} from "react-bootstrap";
+import { Card, CardDeck, Col, Row, Image} from "react-bootstrap";
+import logo from "../images/Creative_Practice_Sample_icon.png"
 import img from "../images/Sample.jpg";
+
 
 
 
 const AboutUs = () => {
     return (
         <div>
-                <Jumbotron fluid>
-                    <Container>
+              <Jumbotron fluid>
+                  <Container>
+                    <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#158cba", fontSize: 80}}>Creative Practice</h1>
+                    <Row className="justify-content-center">
+                      <Col xs={10} sm={7} md={5}>
+                        <Image src={logo} fluid/>
+                      </Col>
+                    </Row>
                     <h1>About Us</h1>
                     
                     <h5>
@@ -73,9 +82,8 @@ const AboutUs = () => {
                         <Col></Col>
                         <Col></Col>
                       </CardDeck>
-                      
-                    </Container>
-                </Jumbotron>
+                  </Container>
+              </Jumbotron>
         </div>
     )
 }

@@ -1,19 +1,28 @@
+import "bootswatch/dist/lumen/bootstrap.min.css";
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
-import { Card, CardDeck, Col} from "react-bootstrap";
+import { Card, CardDeck, Col, Row, Image} from "react-bootstrap";
+import logo from "../images/Creative_Practice_Sample_icon.png"
 import img from "../images/Sample.jpg";
+
 
 
 
 const AboutUs = () => {
     return (
         <div>
-                <Jumbotron fluid>
-                    <Container>
+              <Jumbotron fluid>
+                  <Container>
+                    <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#158cba", fontSize: 80}}>Creative Practice</h1>
+                    <Row className="justify-content-center">
+                      <Col xs={10} sm={7} md={5}>
+                        <Image src={logo} fluid/>
+                      </Col>
+                    </Row>
                     <h1>About Us</h1>
                     
-                    <p>
+                    <h5>
                         Created in 2005, White Coat Company is an organization that 
                         writes and rehearses plays put on for patients at the local Children’s Hospital. 
                         We also perform these productions for our peers on Family and Friends Weekend each year. 
@@ -22,7 +31,7 @@ const AboutUs = () => {
                         and making props for the show. Not only is it a fantastic way to provide joy to pediatric 
                         patients, but it provides medical students with an artistic outlet. We hope to see you at one of our upcoming shows!
 
-                    </p>
+                    </h5>
                     <h2 style={{textAlignVertical: "center",textAlign: "center"}}> Club Leaders</h2>
                     <br></br>
                     <h3>Co-Presidents</h3>
@@ -73,9 +82,8 @@ const AboutUs = () => {
                         <Col></Col>
                         <Col></Col>
                       </CardDeck>
-                      
-                    </Container>
-                </Jumbotron>
+                  </Container>
+              </Jumbotron>
         </div>
     )
 }

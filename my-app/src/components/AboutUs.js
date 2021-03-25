@@ -5,6 +5,8 @@ import { Container} from 'reactstrap';
 import { Card, CardDeck, Col, Row, Image} from "react-bootstrap";
 import logo from "../images/Creative_Practice_Sample_icon.png"
 import img from "../images/Sample.jpg";
+import CarouselPics from './CarouselPics';
+
 
 
 
@@ -83,8 +85,13 @@ const AboutUs = () => {
                         <Col></Col>
                       </CardDeck>
                   </Container>
+
+                  <CarouselPics/>
               </Jumbotron>
+
+              
         </div>
+        
     )
 }
 

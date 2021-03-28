@@ -2,23 +2,19 @@ import "bootswatch/dist/lumen/bootstrap.min.css";
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
-import { Card, CardDeck, Col, Row, Image} from "react-bootstrap";
+import { Col, Row, Image} from "react-bootstrap";
 import logo from "../images/Creative_Practice_Sample_icon.png"
-import img from "../images/Sample.jpg";
 import CarouselPics from './CarouselPics';
-
-
-
-
+import Cards from "./Cards";
 
 const AboutUs = () => {
     return (
         <div>
               <Jumbotron fluid>
                   <Container>
-                    <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#158cba", fontSize: 80}}>Creative Practice</h1>
+                    <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#158cba", fontSize: 70}}>Creative Practice</h1>
                     <Row className="justify-content-center">
-                      <Col xs={10} sm={7} md={5}>
+                      <Col xs={9} sm={9} md={4}>
                         <Image src={logo} fluid/>
                       </Col>
                     </Row>
@@ -36,60 +32,13 @@ const AboutUs = () => {
                     </h5>
                     <h2 style={{textAlignVertical: "center",textAlign: "center"}}> Club Leaders</h2>
                     <br></br>
-                    <h3>Co-Presidents</h3>
+                    <Cards/>
                     <br></br>
-                    <CardDeck>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body>
-                                <Card.Title>Shawn Diertl</Card.Title>
-                                <Card.Text>
-                                    sdiertl@ufl.edu
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body>
-                                <Card.Title>Ally Fraser</Card.Title>
-                                <Card.Text>
-                                    allysfraser@ufl.edu
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body>
-                                <Card.Title>Alee Danyluk</Card.Title>
-                                <Card.Text>
-                                    adanyluk@ufl.edu
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </CardDeck>
                     <br></br>
-                    <h3>Treasurer</h3>
-                    <br></br>
-
-                    <CardDeck>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={img} />
-                            <Card.Body>
-                                <Card.Title>Jackson Brunner</Card.Title>
-                                <Card.Text>
-                                    jackson.brunner@ufl.edu
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Col></Col>
-                        <Col></Col>
-                      </CardDeck>
                   </Container>
 
                   <CarouselPics/>
               </Jumbotron>
-
-              
         </div>
         
     )

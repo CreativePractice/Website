@@ -13,29 +13,25 @@ import Calendar from './components/Calendar';
 
 
 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      
 
-      <Router>
-      <div className="container">
-        <Switch>
-          <Route exact path='/Website/' component={AboutUs}></Route>
-          <Route exact path='/Website/ContactUs' component={ContactUs}></Route>
-          <Route exact path='/Website/Calendar' component={Calendar}></Route>
-          <Route exact path='/Website/Performances' component={Performances}></Route>
+      <HashRouter>
+        <div className="container">
+          <Switch>
+            <Route exact path='/' component={AboutUs}></Route>
+            <Route exact path='/ContactUS' component={ContactUs}></Route>
+            <Route exact path='/Calendar' component={Calendar}></Route>
+            <Route exact path='/Performances' component={Performances}></Route>
+          </Switch>
+        </div>
+      </HashRouter>
 
-          
-        </Switch>
-
-      </div>
-      </Router>
-      
     </div>
   );
 }

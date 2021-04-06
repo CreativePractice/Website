@@ -1,62 +1,54 @@
 import "bootswatch/dist/lumen/bootstrap.min.css";
 import React from 'react'
-import { Card, CardDeck, Col} from "react-bootstrap";
+import { Card, CardDeck, Row } from "react-bootstrap";
 import img from "../images/Sample.jpg";
 
 const Cards = () => {
     return (
         <div>
-            <h3>Co-Presidents</h3>
-            <br></br>
-            <CardDeck>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={img} />
-                    <Card.Body>
-                        <Card.Title>Shawn Diertl</Card.Title>
-                        <Card.Text>
-                            sdiertl@ufl.edu
+            <CardDeck className="justify-content-center">
+                <Row className="justify-content-center">
+                    <Card style={{ width: '12rem' }}>
+                        <Card.Img variant="top" src={img} />
+                        <Card.Body>
+                            <Card.Title>Shawn Diertl</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
+                            <Card.Text>
+                                sdiertl@ufl.edu
                         </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={img} />
-                    <Card.Body>
-                        <Card.Title>Ally Fraser</Card.Title>
-                        <Card.Text>
-                            allysfraser@ufl.edu
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '12rem' }}>
+                        <Card.Img variant="top" src={img} />
+                        <Card.Body>
+                            <Card.Title>Ally Fraser</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
+                            <Card.Text>
+                                allysfraser@ufl.edu
                         </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={img} />
-                    <Card.Body>
-                        <Card.Title>Alee Danyluk</Card.Title>
-                        <Card.Text>
-                            adanyluk@ufl.edu
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '12rem' }}>
+                        <Card.Img variant="top" src={img} />
+                        <Card.Body>
+                            <Card.Title>Alee Danyluk</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
+                            <Card.Text>
+                                adanyluk@ufl.edu
                         </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Col></Col>
-                <Col></Col>
-            </CardDeck>
-            <br></br>
-            <h3>Treasurer</h3>
-            <br></br>
-
-            <CardDeck>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={img} />
-                    <Card.Body>
-                        <Card.Title>Jackson Brunner</Card.Title>
-                        <Card.Text>
-                            jackson.brunner@ufl.edu
+                        </Card.Body>
+                    </Card>
+                    <Card style={{ width: '12rem' }}>
+                        <Card.Img variant="top" src={img} />
+                        <Card.Body>
+                            <Card.Title>Jackson Brunner</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Treasurer</Card.Subtitle>
+                            <Card.Text>
+                                jackson.brunner@ufl.edu
                         </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
-                <Col></Col>
+                        </Card.Body>
+                    </Card>
+                </Row>
             </CardDeck>
         </div>
     )

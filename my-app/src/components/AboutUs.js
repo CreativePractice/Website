@@ -18,6 +18,7 @@ const AboutUs = () => {
                         <Image src={logo} fluid/>
                       </Col>
                     </Row>
+                    <br></br>
                     <h1>About Us</h1>
                     
                     <h5>
@@ -30,7 +31,7 @@ const AboutUs = () => {
                         patients, but it provides medical students with an artistic outlet. We hope to see you at one of our upcoming shows!
 
                     </h5>
-                    <h2 style={{textAlignVertical: "center",textAlign: "center"}}> Club Leaders</h2>
+                    <h1 style={{textAlignVertical: "center",textAlign: "center"}}>Club Leaders</h1>
                     <br></br>
                     <Cards/>
                     <br></br>

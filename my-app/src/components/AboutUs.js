@@ -36,6 +36,9 @@ const AboutUs = () => {
                     <Cards/>
                     <br></br>
                     <br></br>
+                    <ClubPictures/>
+                    <br></br>
+                    <br></br>
                   </Container>
 
                   <CarouselPics/>

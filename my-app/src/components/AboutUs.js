@@ -6,6 +6,7 @@ import { Col, Row, Image} from "react-bootstrap";
 import logo from "../images/Creative_Practice_Sample_icon.png"
 import CarouselPics from './CarouselPics';
 import Cards from "./Cards";
+import ClubPictures from "./ClubPictures";
 
 const AboutUs = () => {
     return (

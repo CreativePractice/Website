@@ -5,6 +5,10 @@ import {Row,Col} from 'react-bootstrap'
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
+function clickMe(){
+    alert('Thank you! We will get back to you shortly!');
+}
+
 const ContactUs = () => {
     return (
         <div>
@@ -36,7 +40,7 @@ const ContactUs = () => {
                     </Form.Group>
 
                     
-                    <Button variant="primary" type="submit">
+                    <Button onClick = {clickMe} variant="primary" type="submit">
                         Submit
                     </Button>
                 </Form>

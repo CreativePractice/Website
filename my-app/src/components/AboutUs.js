@@ -7,6 +7,14 @@ import logo from "../images/Creative_Practice_Sample_icon.png"
 import CarouselPics from './CarouselPics';
 import Cards from "./Cards";
 import ClubPictures from "./ClubPictures";
+import img from "../images/FacebookIcon.png";
+
+function myfunction() {
+  var win = window.open("https://www.facebook.com/groups/387221978540976/", '_blank');
+  if (win != null) {
+      win.focus();
+    }
+}
 
 const AboutUs = () => {
     return (
@@ -37,13 +45,24 @@ const AboutUs = () => {
                     <Cards/>
                     <br></br>
                     <br></br>
+                    <br></br>
+                    <br></br>
                     <ClubPictures/>
+                    <br></br>
+                    <br></br>
                     <br></br>
                     <br></br>
                   </Container>
 
                   <CarouselPics/>
               </Jumbotron>
+              
+              <footer>
+                <div style={{textAlignVertical: "center",textAlign: "center"}}>
+                    <button style={{height: "5.5%", width: "5.5%", border: "none", backgroundColor:"transparent"}}><img style={{height: "100%", width: "100%"}} src={img} alt="icon" onClick={myfunction} /></button>
+                </div>
+            </footer>
+            <br></br>
         </div>
         
     )

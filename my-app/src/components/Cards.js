@@ -1,14 +1,17 @@
 import "bootswatch/dist/lumen/bootstrap.min.css";
 import React from 'react'
 import { Card, CardDeck, Row } from "react-bootstrap";
-import img from "../images/Sample.jpg";
+import img from "../images/ShawnDiertl.png";
+import img2 from "../images/AllyFraser.png";
+import img3 from "../images/AleeDanyluk.jpg";
+import img4 from "../images/JacksonBrunner.png";
 
 const Cards = () => {
     return (
         <div>
             <CardDeck className="justify-content-center">
                 <Row className="justify-content-center">
-                    <Card style={{ width: '12rem' }}>
+                    <Card style={{ width: '13rem' }}>
                         <Card.Img variant="top" src={img} />
                         <Card.Body>
                             <Card.Title>Shawn Diertl</Card.Title>
@@ -18,8 +21,8 @@ const Cards = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '12rem' }}>
-                        <Card.Img variant="top" src={img} />
+                    <Card style={{ width: '13rem' }}>
+                        <Card.Img variant="top" src={img2} />
                         <Card.Body>
                             <Card.Title>Ally Fraser</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
@@ -28,8 +31,8 @@ const Cards = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '12rem' }}>
-                        <Card.Img variant="top" src={img} />
+                    <Card style={{ width: '13rem' }}>
+                        <Card.Img variant="top" src={img3} />
                         <Card.Body>
                             <Card.Title>Alee Danyluk</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
@@ -38,8 +41,8 @@ const Cards = () => {
                         </Card.Text>
                         </Card.Body>
                     </Card>
-                    <Card style={{ width: '12rem' }}>
-                        <Card.Img variant="top" src={img} />
+                    <Card style={{ width: '13rem' }}>
+                        <Card.Img variant="top" src={img4} />
                         <Card.Body>
                             <Card.Title>Jackson Brunner</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Treasurer</Card.Subtitle>

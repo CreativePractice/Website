@@ -2,11 +2,19 @@ import React from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import {Row,Col} from 'react-bootstrap'
+import img from "../images/FacebookIcon.png";
 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 function clickMe(){
     alert('Thank you! We will get back to you shortly!');
+}
+
+function myfunction() {
+    var win = window.open("https://www.facebook.com/groups/387221978540976/", '_blank');
+    if (win != null) {
+        win.focus();
+      }
 }
 
 const ContactUs = () => {
@@ -44,8 +52,15 @@ const ContactUs = () => {
                         Submit
                     </Button>
                 </Form>
+
             </Jumbotron>
+            <footer>
+                <div style={{textAlignVertical: "center",textAlign: "center"}}>
+                    <button style={{height: "5.5%", width: "5.5%", border: "none", backgroundColor:"transparent"}}><img style={{height: "100%", width: "100%"}} src={img} alt="icon" onClick={myfunction} /></button>
+                </div>
+            </footer>
         </div>
+        
     )
 }
 

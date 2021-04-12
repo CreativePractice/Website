@@ -19,6 +19,9 @@ jobs:
           command: cd ./my-app/ && npm start
           background: true
   test:
+    executor:
+      name: node/default
+      tag: '10.4'
     steps:
       - run: cd ./my-app/ && npm run test
 workflows:

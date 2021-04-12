@@ -1,15 +1,12 @@
 version: 2.1
-orbs:
-  node: circleci/node@4.0.0
 filter:
   branches:
     only:
       - main
 jobs:
   build:
-    executor:
-      name: node/default
-      tag: '10.4'
+    docker:
+      - image: circleci/node:12.9.1-browsers
     steps:
       - checkout
       - run: cd ./my-app/ && npm install
@@ -18,8 +15,7 @@ jobs:
           background: true
   test:
     executor:
-      name: node/default
-      tag: '10.4'
+      - image: circleci/node:12.9.1-browsers
     steps:
       - checkout
       - run: cd ./my-app/ && npm install

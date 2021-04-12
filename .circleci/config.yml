@@ -4,8 +4,6 @@ version: 2.1
 workflows:
   build:
     jobs:
-      - steps:
-        - run: cd ./my-app/
       - react/install
       - react/test:
           requires:

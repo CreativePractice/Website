@@ -18,5 +18,12 @@ jobs:
       - run:
           command: cd ./my-app/ && npm start
           background: true
-      - run: sleep 5
+  test:
       - run: cd ./my-app/ && npm run test
+workflows:
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build

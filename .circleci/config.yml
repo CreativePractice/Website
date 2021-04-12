@@ -24,6 +24,7 @@ jobs:
       tag: '10.4'
     steps:
       - checkout
+      - run: cd ./my-app/ && npm install
       - run: cd ./my-app/ && npm run test
 workflows:
   build_and_test:

@@ -23,7 +23,8 @@ jobs:
       name: node/default
       tag: '10.4'
     steps:
-      - run: npm run test
+      - checkout
+      - run: cd ./my-app/ && npm run test
 workflows:
   build_and_test:
     jobs:

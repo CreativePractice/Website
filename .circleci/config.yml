@@ -14,7 +14,7 @@ jobs:
           command: cd ./my-app/ && npm start
           background: true
   test:
-    executor:
+    docker:
       - image: circleci/node:12.9.1-browsers
     steps:
       - checkout

@@ -2,9 +2,10 @@ orbs:
   react: 'thefrontside/react@dev:alpha'
 version: 2.1
 workflows:
-  push:
+  build:
     jobs:
-      - run: cd ./my-app/
+      - steps:
+        - run: cd ./my-app/
       - react/install
       - react/test:
           requires:

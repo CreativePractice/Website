@@ -1,20 +1,31 @@
 version: 2.1
 orbs:
-  node: circleci/node@1.1.0
+  node: circleci/node@4.2.1
+filter:
+  branches:
+    only:
+      - main
 jobs:
   build:
     executor:
       name: node/default
-      tag: '10.4'
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install mocha
-            - run: alias mocha='./node_modules/.bin/_mocha'
-            - run: npm install
+      - run: cd ./my-app/ && npm install
       - run:
-          command: npm start
+          command: cd ./my-app/ && npm start
           background: true
-      - run: sleep 5
-      - run: npm run test
+  test:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - run: cd ./my-app/ && npm install
+      - run: cd ./my-app/ && npm run test
+workflows:
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build

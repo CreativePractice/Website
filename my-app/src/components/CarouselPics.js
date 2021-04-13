@@ -1,6 +1,6 @@
 import React from 'react'
-import img from "../images/creativePracticePeoplePic.png"
-import img2 from "../images/bedtimeStoryplay.png"
+import img from "../images/CreativePracticeTeam.jpg"
+import img2 from "../images/DancePicture.jpg"
 import img3 from "../images/otherplay.jpg"
 import Carousel from 'react-bootstrap/Carousel'
 

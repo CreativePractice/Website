@@ -24,7 +24,7 @@ export default function ContactUs() {
         if (email.match(pattern) && message != "") {
 
 
-            emailjs.sendForm('service_k4jk81k', 'template_pkgbffz', e.target, 'user_aMcpLm5fv1v2aIJeJT3zu')
+            emailjs.sendForm('service_k4jk81k', 'template_pkgbffz', e.target, process.env.REACT_APP_EMAILJSKEY)
                 .then((result) => {
                     console.log(result.text);
                 }, (error) => {

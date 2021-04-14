@@ -28,7 +28,9 @@ const AboutUs = () => {
                       </Col>
                     </Row>
                     <br></br>
+                    <br></br>
                     <h1>About Us</h1>
+                    <br></br>
                     
                     <h5>
                         Created in 2005, White Coat Company is an organization that 
@@ -40,7 +42,10 @@ const AboutUs = () => {
                         patients, but it provides medical students with an artistic outlet. We hope to see you at one of our upcoming shows!
 
                     </h5>
+                    <br></br>
+                    <br></br>
                     <h1 style={{textAlignVertical: "center",textAlign: "center"}}>Club Leaders</h1>
+                    <br></br>
                     <br></br>
                     <Cards/>
                     <br></br>

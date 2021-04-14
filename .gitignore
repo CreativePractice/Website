@@ -6,7 +6,11 @@
 .pnp.js
 /my-app/node_modules
 /my-app/build
-
+/my-app/.env
+/my-app/.env.local
+/my-app/.env.development.local
+/my-app/.env.test.local
+/my-app/.env.production.local
 # testing
 /coverage
 

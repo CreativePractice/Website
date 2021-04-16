@@ -12,7 +12,7 @@ const Cards = () => {
             <CardDeck className="justify-content-center">
                 <Row className="justify-content-center">
                     <Card style={{ width: '13rem' }}>
-                        <Card.Img variant="top" src={img} />
+                        <Card.Img variant="top" src={img} style={{ height: '65%' }} />
                         <Card.Body>
                             <Card.Title>Shawn Diertl</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
@@ -22,7 +22,7 @@ const Cards = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '13rem' }}>
-                        <Card.Img variant="top" src={img2} />
+                        <Card.Img variant="top" src={img2} style={{ height: '65%' }} />
                         <Card.Body>
                             <Card.Title>Ally Fraser</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
@@ -32,7 +32,7 @@ const Cards = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '13rem' }}>
-                        <Card.Img variant="top" src={img3} />
+                        <Card.Img variant="top" src={img3} style={{ height: '65%' }} />
                         <Card.Body>
                             <Card.Title>Alee Danyluk</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Co-President</Card.Subtitle>
@@ -42,8 +42,8 @@ const Cards = () => {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '13rem' }}>
-                        <Card.Img variant="top" src={img4} />
-                        <Card.Body>
+                        <Card.Img variant="top" src={img4} style={{ height: '65%' }} />
+                        <Card.Body style={{ height: '35%' }}>
                             <Card.Title>Jackson Brunner</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Treasurer</Card.Subtitle>
                             <Card.Text>

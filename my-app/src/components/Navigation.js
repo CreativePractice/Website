@@ -1,11 +1,12 @@
 import React from 'react';
-import { Navbar, Nav} from "react-bootstrap"
+import { Navbar, Nav,Image} from "react-bootstrap"
+import logo from "../images/Creative_Practice_Sample_icon.png"
 
 function Navigation () {
     return (
         <div>
             <Navbar bg="primary" expand="lg" variant="dark">
-                <Navbar.Brand href="/Website/">CPR</Navbar.Brand>
+                <Navbar.Brand href="/Website/"><Image src={logo} fluid width="30" height="30"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

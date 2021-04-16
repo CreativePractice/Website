@@ -13,6 +13,7 @@ const CarouselPics = () => {
                     className="d-block w-100"
                     src={img}
                     alt="First slide"
+                    style={{ height: '60%' }}
                     />
                     <Carousel.Caption>
                     </Carousel.Caption>
@@ -22,6 +23,7 @@ const CarouselPics = () => {
                     className="d-block w-100"
                     src={img2}
                     alt="Second slide"
+                    style={{ height: '60%' }}
                     />
 
                     <Carousel.Caption>
@@ -32,6 +34,7 @@ const CarouselPics = () => {
                     className="d-block w-100"
                     src={img3}
                     alt="Third slide"
+                    style={{ height: '60%' }}
                     />
 
                     <Carousel.Caption>

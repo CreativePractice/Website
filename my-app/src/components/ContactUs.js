@@ -1,15 +1,7 @@
 import emailjs from "emailjs-com";
 import React from 'react';
 import { Jumbotron } from "react-bootstrap";
-import img from "../images/FacebookIcon.png";
-
-
-function myfunction() {
-    var win = window.open("https://www.facebook.com/groups/387221978540976/", '_blank');
-    if (win != null) {
-        win.focus();
-      }
-}
+import SocialFollow from "./SocialFollow";
 
 export default function ContactUs() {
 
@@ -33,7 +25,9 @@ export default function ContactUs() {
                 }, (error) => {
                     console.log(error.text);
                 });
-                text.innerHTML = "";
+                textName.innerHTML = "";
+                textEmail.innerHTML = "";
+                textMessage.innerHTML = "";
                 e.target.reset()
                 alert('Thank you! We will get back with you shortly!');
             
@@ -121,13 +115,12 @@ return(
                         </div>
                     </form>
                 </div>
-            </Jumbotron>
-            <footer>
-                <div style={{textAlignVertical: "center",textAlign: "center"}}>
-                    <button style={{height: "5.5%", width: "5.5%", border: "none", backgroundColor:"transparent"}}><img style={{height: "100%", width: "100%"}} src={img} alt="icon" onClick={myfunction} /></button>
-                </div>
-            </footer>
             <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            </Jumbotron>
+            <SocialFollow/>
         </div>
     )
 }

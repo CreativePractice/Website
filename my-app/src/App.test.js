@@ -31,6 +31,6 @@ test('renders Performances title', () => {
 
 test('renders NavBar', () => {
   render(<Navigation />);
-  const linkElement = screen.getByText(/CPR/i);
+  const linkElement = screen.getByText(/About Us/i);
   expect(linkElement).toBeInTheDocument();
 });

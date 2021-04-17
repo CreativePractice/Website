@@ -11,9 +11,9 @@ function Navigation () {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                     <Nav.Link href="/Website/">About Us</Nav.Link>
-                    <Nav.Link href="/Website/#/ContactUs">Contact Us</Nav.Link>
-                    <Nav.Link href="/Website/#/Calendar">Calendar</Nav.Link>
                     <Nav.Link href="/Website/#/Performances">Performances</Nav.Link>
+                    <Nav.Link href="/Website/#/Calendar">Calendar</Nav.Link>
+                    <Nav.Link href="/Website/#/ContactUs">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>

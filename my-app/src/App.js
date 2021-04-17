@@ -1,5 +1,5 @@
 import './App'
-import "bootswatch/dist/lumen/bootstrap.min.css";
+import "bootswatch/dist/litera/bootstrap.min.css";
 import React from 'react';
 import './App.css'
 import Navigation from './components/Navigation';

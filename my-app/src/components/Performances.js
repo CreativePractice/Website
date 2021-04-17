@@ -1,12 +1,12 @@
 import React from 'react'
 import SocialFollow from "./SocialFollow";
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const Performances = () => {
     return (
         <div>
-            <br></br>
-           <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#158cba", fontSize: 50}}>Performances</h1>
-           <br></br>
+            <Jumbotron style={{background: "White"}}>
+           <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#4782ed", fontSize: 50}}>Performances</h1>
            <br></br>
            <br></br>
            <br></br>
@@ -16,6 +16,7 @@ const Performances = () => {
            <br></br>
            <br></br>
            <SocialFollow />
+           </Jumbotron>
         </div>
     )
 }

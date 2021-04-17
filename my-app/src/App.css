@@ -21,3 +21,14 @@
   a.globe {
     color:blue;
   }
+  button.social {
+    border: none;
+    margin: 0 1rem;
+    transition: transform 100ms;
+  }
+  button.social:hover {
+    transform: translateY(-2px);
+  }
+  button.envelope {
+    color: orange;
+  }

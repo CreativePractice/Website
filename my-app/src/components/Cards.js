@@ -1,4 +1,4 @@
-import "bootswatch/dist/lumen/bootstrap.min.css";
+import "bootswatch/dist/litera/bootstrap.min.css";
 import React from 'react'
 import { Card, CardDeck, Row } from "react-bootstrap";
 import img from "../images/ShawnDiertl.png";

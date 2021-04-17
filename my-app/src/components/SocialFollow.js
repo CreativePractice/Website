@@ -6,8 +6,17 @@ import {
     faFacebook
   } from "@fortawesome/free-brands-svg-icons";
   import {
-    faGlobe
-   } from '@fortawesome/free-solid-svg-icons'
+    faGlobe,
+    faEnvelope
+   } from '@fortawesome/free-solid-svg-icons';
+  //  import {
+  //    faEnvelope
+  //  } from '@fontawesome/free-solid-svg-icons';
+
+   function ShowEmail()
+   {
+     alert("Send us an E-mail at crpufcom@gmail.com");
+   }
 
 function SocialFollow() {
   return (
@@ -26,6 +35,10 @@ function SocialFollow() {
           className="web social">
           <FontAwesomeIcon icon={ faGlobe } size="2x" />
         </a>
+        <button onClick={ShowEmail} style = {{borderBlockColor: "transparent"}}
+          className="envelope social">
+          <FontAwesomeIcon icon={ faEnvelope } size="2x" />
+        </button> 
         </Row>
       </div>
   );

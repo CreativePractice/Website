@@ -1,4 +1,4 @@
-import "bootswatch/dist/lumen/bootstrap.min.css";
+import "bootswatch/dist/litera/bootstrap.min.css";
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
@@ -12,17 +12,22 @@ import SocialFollow from "./SocialFollow";
 const AboutUs = () => {
     return (
         <div>
-              <Jumbotron fluid>
+              <Jumbotron fluid style={{background:"White"}}>
                   <Container>
-                    <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#158cba", fontSize: 70}}>Creative Practice</h1>
-                    <Row className="justify-content-center">
+                    <h1 style={{textAlignVertical: "center",textAlign: "center", color: "#4782ed", fontSize: 70}}><Image style={{height: "15%", width: "15%"}}src={logo} fluid/>   Creative Practice</h1>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <CarouselPics/>
+                    {/* <Row className="justify-content-center">
                       <Col xs={9} sm={9} md={4}>
                         <Image src={logo} fluid/>
                       </Col>
-                    </Row>
+                    </Row> */}
                     <br></br>
                     <br></br>
-                    <h1>About Us</h1>
+                    <h1 style={{textAlignVertical: "center",textAlign: "center"}} >About Us</h1>
                     <br></br>
                     
                     <h5>
@@ -44,15 +49,8 @@ const AboutUs = () => {
                     <br></br>
                     <br></br>
                     <br></br>
-                    <br></br>
                     <ClubPictures/>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
                   </Container>
-
-                  <CarouselPics/>
               </Jumbotron>
             <SocialFollow/>
         </div>

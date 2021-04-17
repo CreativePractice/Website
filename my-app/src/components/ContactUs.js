@@ -91,26 +91,26 @@ export default function ContactUs() {
     
 return(
         <div>
-            <Jumbotron>
-                <h1 style={{ textAlignVertical: "center", textAlign: "center", color: "#158cba", fontSize: 50 }}>Contact Us</h1>
+            <Jumbotron style={{background: "White"}}>
+                <h1 style={{ textAlignVertical: "center", textAlign: "center", color: "#4782ed", fontSize: 50 }}>Contact Us</h1>
                 <div className="container">
                     <form onSubmit={sendEmail}>
                         <div className="row pt-5 mx-auto">
                             <div className="col-8 form-group mx-auto">
-                                <input type="text" className="form-control" placeholder="Name" id="name" name="name" onChange={validation} />
+                                <input style={{borderColor:"black"}} type="text" className="form-control" placeholder="Name" id="name" name="name" onChange={validation} />
                                 <span id="textName"></span>
                             </div>
                             <div className="col-8 form-group pt-2 mx-auto">
-                                <input type="email" className="form-control" placeholder="Email Address" id="email" name="email" onChange={validation} />
+                                <input style={{borderColor:"black"}} type="email" className="form-control" placeholder="Email Address" id="email" name="email" onChange={validation} />
                                 <span id="textEmail"></span>
                             </div>
                             <div className="col-8 form-group pt-2 mx-auto">
-                                <textarea className="form-control" cols="30" rows="8" placeholder="Your message" id="message" name="message" onChange={validation} ></textarea>
+                                <textarea style={{borderColor:"black"}}className="form-control" cols="30" rows="8" placeholder="Your message" id="message" name="message" onChange={validation} ></textarea>
                                 <span id="textMessage"></span>
                                 <br></br>
                             </div>
                             <div className="col-8 pt-3 mx-auto">
-                                <input  type="submit" className="btn btn-info" value="Send Message"></input>
+                                <input style={{backgroundColor:"#4782ed"}} type="submit" className="btn btn-info" value="Send Message"></input>
                             </div>
                         </div>
                     </form>

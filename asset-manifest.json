@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.e763be27.chunk.css",
-    "main.js": "/Website/static/js/main.ef0e4b52.chunk.js",
-    "main.js.map": "/Website/static/js/main.ef0e4b52.chunk.js.map",
-    "runtime-main.js": "/Website/static/js/runtime-main.1cb19a3e.js",
-    "runtime-main.js.map": "/Website/static/js/runtime-main.1cb19a3e.js.map",
+    "main.css": "/Website/static/css/main.89db254a.chunk.css",
+    "main.js": "/Website/static/js/main.67a32ee8.chunk.js",
+    "main.js.map": "/Website/static/js/main.67a32ee8.chunk.js.map",
+    "runtime-main.js": "/Website/static/js/runtime-main.00ff2e36.js",
+    "runtime-main.js.map": "/Website/static/js/runtime-main.00ff2e36.js.map",
     "static/css/2.b0921794.chunk.css": "/Website/static/css/2.b0921794.chunk.css",
-    "static/js/2.22b09e82.chunk.js": "/Website/static/js/2.22b09e82.chunk.js",
-    "static/js/2.22b09e82.chunk.js.map": "/Website/static/js/2.22b09e82.chunk.js.map",
-    "static/js/3.f5e48ecf.chunk.js": "/Website/static/js/3.f5e48ecf.chunk.js",
-    "static/js/3.f5e48ecf.chunk.js.map": "/Website/static/js/3.f5e48ecf.chunk.js.map",
+    "static/js/2.bac4df37.chunk.js": "/Website/static/js/2.bac4df37.chunk.js",
+    "static/js/2.bac4df37.chunk.js.map": "/Website/static/js/2.bac4df37.chunk.js.map",
+    "static/js/3.459f4ff4.chunk.js": "/Website/static/js/3.459f4ff4.chunk.js",
+    "static/js/3.459f4ff4.chunk.js.map": "/Website/static/js/3.459f4ff4.chunk.js.map",
     "index.html": "/Website/index.html",
     "static/css/2.b0921794.chunk.css.map": "/Website/static/css/2.b0921794.chunk.css.map",
-    "static/css/main.e763be27.chunk.css.map": "/Website/static/css/main.e763be27.chunk.css.map",
-    "static/js/2.22b09e82.chunk.js.LICENSE.txt": "/Website/static/js/2.22b09e82.chunk.js.LICENSE.txt",
+    "static/css/main.89db254a.chunk.css.map": "/Website/static/css/main.89db254a.chunk.css.map",
+    "static/js/2.bac4df37.chunk.js.LICENSE.txt": "/Website/static/js/2.bac4df37.chunk.js.LICENSE.txt",
     "static/media/AleeDanyluk.a9554ea8.jpg": "/Website/static/media/AleeDanyluk.a9554ea8.jpg",
     "static/media/AllyFraser.27657642.png": "/Website/static/media/AllyFraser.27657642.png",
     "static/media/CreativePracticeTeam.f05be722.jpg": "/Website/static/media/CreativePracticeTeam.f05be722.jpg",
@@ -24,10 +24,10 @@
     "static/media/otherplay.5c81dd27.jpg": "/Website/static/media/otherplay.5c81dd27.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cb19a3e.js",
+    "static/js/runtime-main.00ff2e36.js",
     "static/css/2.b0921794.chunk.css",
-    "static/js/2.22b09e82.chunk.js",
-    "static/css/main.e763be27.chunk.css",
-    "static/js/main.ef0e4b52.chunk.js"
+    "static/js/2.bac4df37.chunk.js",
+    "static/css/main.89db254a.chunk.css",
+    "static/js/main.67a32ee8.chunk.js"
   ]
 }

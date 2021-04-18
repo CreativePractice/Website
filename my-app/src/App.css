@@ -23,7 +23,7 @@
   }
   button.social {
     border: none;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     transition: transform 100ms;
   }
   button.social:hover {

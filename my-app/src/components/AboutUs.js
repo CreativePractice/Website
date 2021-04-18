@@ -2,7 +2,7 @@ import "bootswatch/dist/litera/bootstrap.min.css";
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { Container} from 'reactstrap';
-import { Col, Row, Image} from "react-bootstrap";
+import { Image} from "react-bootstrap";
 import logo from "../images/Creative_Practice_Sample_icon.png"
 import CarouselPics from './CarouselPics';
 import Cards from "./Cards";

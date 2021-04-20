@@ -1,26 +1,37 @@
-# Introduction to Test Driven Development
-In this assignment we will build tests for a directory application. All code except the tests have been written for you.
-## Assignment
-Your objective is to write tests that assert the outputs from a server which provides listing data from a JSON file. To accomplish this, you will:
-- Use tests covered in discussion presentation to build informative tests
-- Start the server
-- Check that tests are running properly
+# Creative Practice Website
+A desktop and mobile website for the University of Florida student organization "White Coat Company: Creative Practice". White Coat Company is an organization that writes and rehearses plays put on for patients at a local Children’s Hospital in Gainesville. The purpose of the site is to help give an overview of the organization and allow people to connect with the organization. The website also has a calendar to display important events, a page to show previous performances and a page to send emails directly to the organization.
 
-We have provided skeleton code that will help guide you in completing this assignment. The server has already been written for you in server.js, you will write the tests in server.test.js
+## Installation
 
-The point of this assignment is to learn about tests and their relationship to functionality of your code. The only code you will need to write are the assertions and any code needed to move between tests.
-# Instructions: 
+Required dependencies:
 
-1. Make sure you have [Node.js](https://nodejs.org/en/) installed
-2. Download Zip file
-3. Install the mocha testing framework with the command `npm install -g mocha`
-4. Use `npm install` to download all necessary dependencies
-5. Start your server with `npm start` 
-6. Implement the tests by filling in code blocks found in server.test.js, then test your implementation with the command mocha server.test.js. (make sure your server is running before trying to run the tests!)
-7. Push code to your project GitHub and submit link to this assignment.
+* Node.js
+* npm
 
-Please push your code with tests to GitHub and submit the link.
+Dependencies used (installed with npm):
 
+* React
+* React-bootstrap
+* bootswatch
+* Emailjs
+* fontawesome (free)
+* gh-pages (if deploying to GitHub pages)
 
+Steps for local install:
 
+1. Clone the repository
 
+```sh
+git clone https://github.com/CreativePractice/Website.git
+```
+2. Navigate to the my-app directory and install dependencies
+
+```sh
+cd my-app
+npm install
+```
+3. Start a local server
+
+```sh
+npm start
+```

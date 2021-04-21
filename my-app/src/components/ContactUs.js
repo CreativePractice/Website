@@ -3,6 +3,10 @@ import React from 'react';
 import { Jumbotron } from "react-bootstrap";
 import SocialFollow from "./SocialFollow";
 
+/*We got a lot of insight into creating the functionality of this page from https://youtu.be/NgWGllOjkbs and https://youtu.be/HzJngc-Se9Q*/
+
+
+
 export default function ContactUs() {
 
     function sendEmail(e) {

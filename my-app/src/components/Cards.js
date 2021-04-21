@@ -6,6 +6,8 @@ import img2 from "../images/AllyFraser.png";
 import img3 from "../images/AleeDanyluk.jpg";
 import img4 from "../images/JacksonBrunner.png";
 
+/*We got a lot of insight into creating the functionality of this page from https://react-bootstrap.netlify.app/components/cards/#cards*/
+
 const Cards = () => {
     return (
         <div>

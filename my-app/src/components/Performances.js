@@ -2,6 +2,8 @@ import React from 'react'
 import SocialFollow from "./SocialFollow";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
+/*We got a lot of insight into creating the functionality of this page from https://support.google.com/youtube/answer/171780?hl=en*/
+
 const Performances = () => {
     return (
         <div>

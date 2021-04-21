@@ -20,11 +20,7 @@ const AboutUs = () => {
                     <br></br>
                     <br></br>
                     <CarouselPics/>
-                    {/* <Row className="justify-content-center">
-                      <Col xs={9} sm={9} md={4}>
-                        <Image src={logo} fluid/>
-                      </Col>
-                    </Row> */}
+
                     <br></br>
                     <br></br>
                     <h1 style={{textAlignVertical: "center",textAlign: "center"}} >About Us</h1>

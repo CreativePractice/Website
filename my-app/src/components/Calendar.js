@@ -2,6 +2,8 @@ import React from 'react'
 import SocialFollow from "./SocialFollow";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
+/*We got a lot of insight into creating the functionality of this page from https://youtu.be/vksO63XQQ3w*/
+
 const Calendar = () => {
     return (
         <div>
@@ -15,7 +17,6 @@ const Calendar = () => {
             <SocialFollow/>
             </Jumbotron>
         </div>
-        
     )
 }
 

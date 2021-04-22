@@ -1,4 +1,5 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
+import sendEmail from './components/ContactUs';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Calendar from './components/Calendar';
@@ -33,4 +34,19 @@ test('renders NavBar', () => {
   render(<Navigation />);
   const linkElement = screen.getByText(/About Us/i);
   expect(linkElement).toBeInTheDocument();
+});
+
+describe('error messages appear', () => {
+    
+  test('on submitting with no input in form fields', () => {
+      render(<ContactUs />);
+      const { getByText } = render(<form onSubmit = {sendEmail} />);
+
+      fireEvent.click(getByText(/Send Message/i));
+
+      expect(getByText(/Please enter your name/i));
+      expect(getByText(/Please enter a valid E-mail address/i));
+      expect(getByText(/Please enter a message/i));
+  });
+  
 });

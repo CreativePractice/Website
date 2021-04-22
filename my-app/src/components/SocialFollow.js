@@ -20,7 +20,7 @@ import {
 
 function SocialFollow() {
   return (
-      <div class="social-container">
+      <div className="social-container">
         <h3 style={{ textAlignVertical: "center", textAlign: "center" }}>Connect with us</h3>
         <Row className="justify-content-center">
         <a href="https://www.youtube.com/channel/UCKg-lFILwy3LS5XP9zajE7A" target="_blank" rel="noopener noreferrer"
